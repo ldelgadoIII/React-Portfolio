@@ -1,13 +1,20 @@
-import './App.css';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import NavBar from "./components/NavBar"
+import Home from "./pages/Home"
+import Portfolio from "./pages/Portfolio"
+import Contact from "./pages/Contact"
 
 function App() {
   return (
-    <div className="App">
-      <h1>Welcome to Loreto's Portfolio!</h1>
-      {/* nav bar */}
-      {/* welcome banner */}
-      {/* footer */}
-    </div>
+    <Router>
+      <div>
+        <NavBar />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/contact" component={Contact} />
+      </div>
+    </Router>
+      
   );
 }
 
