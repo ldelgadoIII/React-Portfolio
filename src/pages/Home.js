@@ -17,7 +17,7 @@ const Home = () => {
 
 const style = {
   backgroundImage: `url(${background})`, 
-  height: "34rem", 
+  height: "55rem", 
   backgroundSize: "cover" 
 }
 

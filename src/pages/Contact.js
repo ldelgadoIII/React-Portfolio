@@ -16,7 +16,7 @@ const Contact = () => {
 
 const style = {
   backgroundImage: `url(${background})`, 
-  height: "40rem", 
+  height: "55rem", 
   backgroundSize: "cover" 
 }
 

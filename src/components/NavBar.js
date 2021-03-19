@@ -31,7 +31,8 @@ const NavBar = () => {
 
 const style = {
   nav: { 
-    backgroundColor: "rgb(234 238 221)" 
+    backgroundColor: "rgb(234 238 221)",
+    boxShadow: "0px 0px 10px #e0776a"
   }
 }
 
