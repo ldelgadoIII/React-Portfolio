@@ -1,16 +1,24 @@
 import './pages.css';
 import React from 'react'
+import background from "../images/desk-background.jpg"
 
 const Home = () => {
     return (
         <>
-          <div className="App">
-            <h1>Welcome to Loreto's Portfolio!</h1>
-            {/* welcome banner */}
-            {/* footer */}
+          <div class="background" style={style}>
+            <div class="welcome text-center">
+              <h1 class="display-4">Loreto V. Delgado III</h1>
+              <p class="lead">Websites made fast and fun!</p>
+            </div>
           </div>
         </>
     )
+}
+
+const style = {
+  backgroundImage: `url(${background})`, 
+  height: "34rem", 
+  backgroundSize: "cover" 
 }
 
 export default Home

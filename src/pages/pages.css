@@ -1,3 +1,10 @@
-.App {
-  text-align: center;
+.welcome {
+  padding: 4rem 2rem;
+  margin-bottom: 2rem;
+  color: whitesmoke;
+  background-color: #d2a56c;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: .8;
 }
