@@ -12,8 +12,8 @@ const Portfolio = () => {
   const apps = [
     {
       image: imageOne,
-      github: "",
-      deploy: "",
+      github: "https://github.com/ldelgadoIII/Task-Ya-Later",
+      deploy: "https://project-two-ljm.herokuapp.com/",
       style: {
         display: "flex", 
         justifyContent: "space-evenly"
@@ -22,41 +22,40 @@ const Portfolio = () => {
     },
     {
       image: imageTwo,
-      github: "",
-      deploy: "",
-      style: {
-        display: "flex", 
-        justifyContent: "space-evenly"
-        },
+      github: "https://github.com/jimbopulos/rec-app",
+      deploy: "https://jimbopulos.github.io/rec-app/",
+      style: { 
+        alignItems: "center"
+      },
       imgStyle: { 
         width: "45%" 
       }
     },
     {
       image: imageThree,
-      github: "",
-      deploy: "",
+      github: "https://github.com/ldelgadoIII/Employee-Directory",
+      deploy: "https://ldelgadoiii.github.io/Employee-Directory/",
       style: {},
       imgStyle: {}
     },
     {
       image: imageFour,
-      github: "",
-      deploy: "",
+      github: "https://github.com/ldelgadoIII/Fitness-Tracker",
+      deploy: "https://fitness-tracker-ld3.herokuapp.com/?id=6043984d7d10620015ea9f9e",
       style: {},
       imgStyle: {}
     },
     {
       image: imageFive,
-      github: "",
-      deploy: "",
+      github: "https://github.com/ldelgadoIII/Budget-Tracker",
+      deploy: "https://budget-tracker-ld3.herokuapp.com/",
       style: {},
       imgStyle: {}
     },
     {
       image: imageSix,
-      github: "",
-      deploy: "",
+      github: "https://github.com/ldelgadoIII/Team-Profile-Generator",
+      deploy: "https://github.com/ldelgadoIII/Team-Profile-Generator",
       style: {},
       imgStyle: { 
         height: "70%" 
@@ -71,7 +70,7 @@ const Portfolio = () => {
           <h1 class="display-4">Portfolio Page</h1>
         </div>
         <div className="portfolio">
-          {apps.map(({ style, image, imgStyle }) => <PortfolioCard style={style} img={image} imgStyle={imgStyle}/>)}
+          {apps.map(({ style, image, imgStyle, github, deploy }) => <PortfolioCard style={style} img={image} imgStyle={imgStyle} github={github} website={deploy} />)}
         </div>
       </div>
     </>
