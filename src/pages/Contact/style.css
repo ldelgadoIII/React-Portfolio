@@ -1,0 +1,16 @@
+.title {
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+  color: whitesmoke;
+  background-color: #d2a56c;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: .8;
+  height: 13%;
+  margin-top: 3rem;
+}
+
+.background {
+  display: flex;
+}

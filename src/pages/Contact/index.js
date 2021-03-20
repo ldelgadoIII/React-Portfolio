@@ -1,11 +1,11 @@
-import React from 'react'
-import background from "../images/phone-background.jpg"
+import './style.css';
+import background from "../../images/phone-background.jpg"
 
 const Contact = () => {
     return (
         <>
           <div class="background" style={style}>
-            <div class="welcome text-center">
+            <div class="title text-center">
               <h1 class="display-4">Contact Page</h1>
             </div>
           </div>

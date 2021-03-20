@@ -1,0 +1,48 @@
+.title {
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+  color: whitesmoke;
+  background-color: #d2a56c;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: .8;
+  height: 13%;
+  margin-top: 3rem;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  width: 80%
+}
+
+.portfolio-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #eaeedd;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  height: 50%;
+  margin: 26px 25px;
+  box-shadow: #585858 0px 0px 10px;
+}
+
+.portfolio-item {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}

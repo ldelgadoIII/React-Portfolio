@@ -1,6 +1,5 @@
-import './pages.css';
-import React from 'react'
-import background from "../images/desk-background.jpg"
+import './style.css';
+import background from "../../images/desk-background.jpg"
 
 const Home = () => {
     return (
