@@ -5,8 +5,23 @@ const Contact = () => {
     return (
         <>
           <div class="background" style={style}>
-            <div class="title text-center">
+            <div class="contact text-center">
               <h1 class="display-4">Contact Page</h1>
+              <h2 class="email">
+                <a href="mailto:LDelgadoTheThird@gmail.com" style={{color: "black"}}>
+                  Email: LDelgadoTheThird@gmail.com
+                </a>
+              </h2>
+              <h2>
+                <a href="github.com/ldelgadoIII" style={{color: "black"}}>
+                  Github: github.com/ldelgadoIII
+                </a>
+              </h2>
+              <h2>
+                <a href="instagram.com/loretsdthree" style={{color: "black"}}>
+                  Instagram: instagram.com/loretsdthree
+                </a>
+              </h2>
             </div>
           </div>
         </>

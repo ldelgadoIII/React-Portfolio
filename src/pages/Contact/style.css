@@ -1,16 +1,20 @@
-.title {
-  padding: 1rem 2rem;
+.contact {
+  padding: 2rem 2rem;
   margin-bottom: 2rem;
   color: whitesmoke;
   background-color: #d2a56c;
-  width: 50%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
   opacity: .8;
-  height: 13%;
-  margin-top: 3rem;
+  height: 33%;
+  margin-top: 12rem;
 }
 
 .background {
   display: flex;
+}
+
+h2.email {
+  margin-top: 15px;
 }
