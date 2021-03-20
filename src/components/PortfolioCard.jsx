@@ -1,11 +1,10 @@
 import React from 'react'
-import imageOne from "../images/tyl.PNG"
 
-const PortfolioCard = () => {
+const PortfolioCard = ({ style, img, imgStyle }) => {
     return (
         <div class="portfolio-card">
-            <div class="portfolio-item">
-              <img src={imageOne} alt="portfolio-item"/>
+            <div class="portfolio-item" style={style}>
+              <img src={img} alt="portfolio-item" style={imgStyle}/>
             </div>
         </div>
     )

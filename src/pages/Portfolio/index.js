@@ -1,5 +1,6 @@
 import './style.css';
 import background from "../../images/portfolio-background.jpg"
+import PortfolioCard from "../../components/PortfolioCard"
 import imageOne from "../../images/tyl.PNG"
 import imageTwo from "../../images/rec-app.png"
 import imageThree from "../../images/employee-directory.PNG"
@@ -8,6 +9,61 @@ import imageFive from "../../images/budget-tracker.PNG"
 import imageSix from "../../images/team-builder.PNG"
 
 const Portfolio = () => {
+  const apps = [
+    {
+      image: imageOne,
+      github: "",
+      deploy: "",
+      style: {
+        display: "flex", 
+        justifyContent: "space-evenly"
+        },
+      imgStyle: {}
+    },
+    {
+      image: imageTwo,
+      github: "",
+      deploy: "",
+      style: {
+        display: "flex", 
+        justifyContent: "space-evenly"
+        },
+      imgStyle: { 
+        width: "45%" 
+      }
+    },
+    {
+      image: imageThree,
+      github: "",
+      deploy: "",
+      style: {},
+      imgStyle: {}
+    },
+    {
+      image: imageFour,
+      github: "",
+      deploy: "",
+      style: {},
+      imgStyle: {}
+    },
+    {
+      image: imageFive,
+      github: "",
+      deploy: "",
+      style: {},
+      imgStyle: {}
+    },
+    {
+      image: imageSix,
+      github: "",
+      deploy: "",
+      style: {},
+      imgStyle: { 
+        height: "70%" 
+      }
+    },
+  ]
+
   return (
     <>
       <div class="background" style={style.background}>
@@ -15,36 +71,7 @@ const Portfolio = () => {
           <h1 class="display-4">Portfolio Page</h1>
         </div>
         <div className="portfolio">
-          <div class="portfolio-card">
-            <div class="portfolio-item">
-              <img src={imageOne} alt="portfolio-item"/>
-            </div>
-          </div>
-          <div class="portfolio-card">
-            <div class="portfolio-item" style={{ display: "flex", justifyContent: "space-evenly" }}>
-              <img src={imageTwo} alt="portfolio-item" style={{ width: "45%" }}/>
-            </div>
-          </div>
-          <div class="portfolio-card">
-            <div class="portfolio-item">
-              <img src={imageThree} alt="portfolio-item"/>
-            </div>
-          </div>
-          <div class="portfolio-card">
-            <div class="portfolio-item">
-              <img src={imageFour} alt="portfolio-item"/>
-            </div>
-          </div>
-          <div class="portfolio-card">
-            <div class="portfolio-item">
-              <img src={imageFive} alt="portfolio-item"/>
-            </div>
-          </div>
-          <div class="portfolio-card">
-            <div class="portfolio-item">
-              <img src={imageSix} alt="portfolio-item" style={{ height: "70%" }}/>
-            </div>
-          </div>
+          {apps.map(({ style, image, imgStyle }) => <PortfolioCard style={style} img={image} imgStyle={imgStyle}/>)}
         </div>
       </div>
     </>
