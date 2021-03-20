@@ -24,7 +24,7 @@
   margin-right: auto;
   flex-wrap: wrap;
   width: 81%;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .portfolio-card {
@@ -41,6 +41,12 @@
   margin: 26px 25px;
   box-shadow: #585858 0px 0px 10px;
   width: 290px;
+  transition: transform .2s;
+}
+
+.portfolio-card:hover {
+  transform: scale(1.2);
+  box-shadow: #585858 0px 10px 31px;
 }
 
 .portfolio-item {

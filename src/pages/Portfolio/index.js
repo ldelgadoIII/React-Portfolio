@@ -21,8 +21,8 @@ const Portfolio = () => {
             </div>
           </div>
           <div class="portfolio-card">
-            <div class="portfolio-item">
-              <img src={imageTwo} alt="portfolio-item"/>
+            <div class="portfolio-item" style={{ display: "flex", justifyContent: "space-evenly" }}>
+              <img src={imageTwo} alt="portfolio-item" style={{ width: "45%" }}/>
             </div>
           </div>
           <div class="portfolio-card">
@@ -42,13 +42,13 @@ const Portfolio = () => {
           </div>
           <div class="portfolio-card">
             <div class="portfolio-item">
-              <img src={imageSix} alt="portfolio-item"/>
+              <img src={imageSix} alt="portfolio-item" style={{ height: "70%" }}/>
             </div>
           </div>
         </div>
       </div>
     </>
-)
+  )
 }
 
 const style = {
