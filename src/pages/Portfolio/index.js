@@ -1,41 +1,48 @@
 import './style.css';
 import background from "../../images/portfolio-background.jpg"
-
+import imageOne from "../../images/tyl.PNG"
+import imageTwo from "../../images/rec-app.png"
+import imageThree from "../../images/employee-directory.PNG"
+import imageFour from "../../images/fitness-tracker.PNG"
+import imageFive from "../../images/budget-tracker.PNG"
+import imageSix from "../../images/team-builder.PNG"
 
 const Portfolio = () => {
   return (
     <>
-      <div class="background" style={style}>
+      <div class="background" style={style.background}>
         <div class="title text-center">
           <h1 class="display-4">Portfolio Page</h1>
         </div>
         <div className="portfolio">
-          <div class="portfolio-card" style={{ width: "18rem"}}>
+          <div class="portfolio-card">
             <div class="portfolio-item">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="\#" class="btn btn-primary">Go somewhere</a>
+              <img src={imageOne} alt="portfolio-item"/>
             </div>
           </div>
-          <div class="portfolio-card" style={{ width: "18rem"}}>
+          <div class="portfolio-card">
             <div class="portfolio-item">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="\#" class="btn btn-primary">Go somewhere</a>
+              <img src={imageTwo} alt="portfolio-item"/>
             </div>
           </div>
-          <div class="portfolio-card" style={{ width: "18rem"}}>
+          <div class="portfolio-card">
             <div class="portfolio-item">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="\#" class="btn btn-primary">Go somewhere</a>
+              <img src={imageThree} alt="portfolio-item"/>
             </div>
           </div>
-          <div class="portfolio-card" style={{ width: "18rem"}}>
+          <div class="portfolio-card">
             <div class="portfolio-item">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="\#" class="btn btn-primary">Go somewhere</a>
+              <img src={imageFour} alt="portfolio-item"/>
+            </div>
+          </div>
+          <div class="portfolio-card">
+            <div class="portfolio-item">
+              <img src={imageFive} alt="portfolio-item"/>
+            </div>
+          </div>
+          <div class="portfolio-card">
+            <div class="portfolio-item">
+              <img src={imageSix} alt="portfolio-item"/>
             </div>
           </div>
         </div>
@@ -45,9 +52,11 @@ const Portfolio = () => {
 }
 
 const style = {
-backgroundImage: `url(${background})`, 
-height: "55rem", 
-backgroundSize: "cover" 
+  background: {
+    backgroundImage: `url(${background})`, 
+    height: "71rem", 
+    backgroundSize: "cover" 
+  }
 }
 
 export default Portfolio
