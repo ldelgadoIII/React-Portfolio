@@ -6,7 +6,7 @@ import imageTwo from "../../images/rec-app.png"
 import imageThree from "../../images/employee-directory.PNG"
 import imageFour from "../../images/fitness-tracker.PNG"
 import imageFive from "../../images/budget-tracker.PNG"
-import imageSix from "../../images/team-builder.PNG"
+import trowel from "../../images/Trowel.png"
 
 const Portfolio = () => {
   const apps = [
@@ -21,6 +21,22 @@ const Portfolio = () => {
       imgStyle: {}
     },
     {
+      image: trowel,
+      github: "https://github.com/benrgross/Trowel",
+      deploy: "https://trowel-app.herokuapp.com/",
+      style: {},
+      imgStyle: { 
+        height: "70%" 
+      }
+    },
+    {
+      image: imageThree,
+      github: "https://github.com/ldelgadoIII/Employee-Directory",
+      deploy: "https://ldelgadoiii.github.io/Employee-Directory/",
+      style: {},
+      imgStyle: {}
+    },
+    {
       image: imageTwo,
       github: "https://github.com/jimbopulos/rec-app",
       deploy: "https://jimbopulos.github.io/rec-app/",
@@ -30,13 +46,6 @@ const Portfolio = () => {
       imgStyle: { 
         width: "45%" 
       }
-    },
-    {
-      image: imageThree,
-      github: "https://github.com/ldelgadoIII/Employee-Directory",
-      deploy: "https://ldelgadoiii.github.io/Employee-Directory/",
-      style: {},
-      imgStyle: {}
     },
     {
       image: imageFour,
@@ -51,15 +60,6 @@ const Portfolio = () => {
       deploy: "https://budget-tracker-ld3.herokuapp.com/",
       style: {},
       imgStyle: {}
-    },
-    {
-      image: imageSix,
-      github: "https://github.com/ldelgadoIII/Team-Profile-Generator",
-      deploy: "https://github.com/ldelgadoIII/Team-Profile-Generator",
-      style: {},
-      imgStyle: { 
-        height: "70%" 
-      }
     },
   ]
 
