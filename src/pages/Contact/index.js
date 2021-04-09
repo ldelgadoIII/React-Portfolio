@@ -13,12 +13,12 @@ const Contact = () => {
                 </a>
               </h2>
               <h2>
-                <a href="github.com/ldelgadoIII" style={{color: "black"}}>
+                <a href="https://github.com/ldelgadoIII" target="\_blank" style={{color: "black"}}>
                   Github: github.com/ldelgadoIII
                 </a>
               </h2>
               <h2>
-                <a href="instagram.com/loretsdthree" style={{color: "black"}}>
+                <a href="https://instagram.com/loretsdthree" target="\_blank" style={{color: "black"}}>
                   Instagram: instagram.com/loretsdthree
                 </a>
               </h2>
