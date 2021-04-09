@@ -25,9 +25,7 @@ const Portfolio = () => {
       github: "https://github.com/benrgross/Trowel",
       deploy: "https://trowel-app.herokuapp.com/",
       style: {},
-      imgStyle: { 
-        height: "70%" 
-      }
+      imgStyle: {}
     },
     {
       image: imageThree,
