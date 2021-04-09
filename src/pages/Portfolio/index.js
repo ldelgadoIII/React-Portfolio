@@ -30,7 +30,7 @@ const Portfolio = () => {
     {
       image: imageThree,
       github: "https://github.com/ldelgadoIII/Directory-App",
-      deploy: "https://ldelgadoiii.github.io/Employee-Directory/",
+      deploy: "https://ldelgadoiii.github.io/Directory-App/",
       style: {},
       imgStyle: {}
     },
