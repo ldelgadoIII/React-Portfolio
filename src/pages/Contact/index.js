@@ -18,6 +18,11 @@ const Contact = () => {
                 </a>
               </h2>
               <h2>
+                <a href="https://www.linkedin.com/in/ldelgadoiii/" target="\_blank" style={{color: "black"}}>
+                  LinkedIn: linkedin.com/in/ldelgadoIII
+                </a>
+              </h2>
+              <h2>
                 <a href="https://instagram.com/loretsdthree" target="\_blank" style={{color: "black"}}>
                   Instagram: instagram.com/loretsdthree
                 </a>
