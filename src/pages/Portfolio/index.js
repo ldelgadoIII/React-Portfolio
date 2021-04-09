@@ -29,7 +29,7 @@ const Portfolio = () => {
     },
     {
       image: imageThree,
-      github: "https://github.com/ldelgadoIII/Employee-Directory",
+      github: "https://github.com/ldelgadoIII/Directory-App",
       deploy: "https://ldelgadoiii.github.io/Employee-Directory/",
       style: {},
       imgStyle: {}
