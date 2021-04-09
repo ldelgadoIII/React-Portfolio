@@ -4,9 +4,9 @@ import PortfolioCard from "../../components/PortfolioCard"
 import imageOne from "../../images/tyl.PNG"
 import imageTwo from "../../images/rec-app.png"
 import imageThree from "../../images/employee-directory.PNG"
-import imageFour from "../../images/fitness-tracker.PNG"
 import imageFive from "../../images/budget-tracker.PNG"
 import trowel from "../../images/Trowel.png"
+import googleBooks from "../../images/googleBooks.png"
 
 const Portfolio = () => {
   const apps = [
@@ -37,6 +37,13 @@ const Portfolio = () => {
       imgStyle: {}
     },
     {
+      image: googleBooks,
+      github: "https://github.com/ldelgadoIII/Google-Books-Search-Engine",
+      deploy: "https://books-search-engine-ld3.herokuapp.com/",
+      style: {},
+      imgStyle: {}
+    },
+    {
       image: imageTwo,
       github: "https://github.com/jimbopulos/rec-app",
       deploy: "https://jimbopulos.github.io/rec-app/",
@@ -46,13 +53,6 @@ const Portfolio = () => {
       imgStyle: { 
         width: "45%" 
       }
-    },
-    {
-      image: imageFour,
-      github: "https://github.com/ldelgadoIII/Fitness-Tracker",
-      deploy: "https://fitness-tracker-ld3.herokuapp.com/?id=6043984d7d10620015ea9f9e",
-      style: {},
-      imgStyle: {}
     },
     {
       image: imageFive,
